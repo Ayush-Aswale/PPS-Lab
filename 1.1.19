@@ -1,0 +1,5 @@
+import string
+a=input()
+p=string.punctuation
+m=''.join(c for c in a if c not in p)
+print(m)
