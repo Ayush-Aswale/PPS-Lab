@@ -1,0 +1,7 @@
+num=int(input('num: '))
+a=0
+while num>0:
+	d=num%10
+	a+=d
+	num=num//10
+print('sum:',a)
